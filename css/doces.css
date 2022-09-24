@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fae8e8;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    font-family: Verdana;
+}
+
+.menu a {
+    color: #562502;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+
+}
+
+.menu a.hover {
+    color: #562502;
+
+}
+
+.menu .btn-menu {
+    background-color: #ea7bb4;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #ea7bb4;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ea7bb4;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-bottom: 5%;
+}
+
+.produtos {
+    justify-content: center;
+}
+
+#carrinho {
+    max-width: 9000px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: block;
+}
+
+.produto-single {
+    width: 33.3%;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    .produto-single {
+        width: 100%;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.button-pink {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #ea7bb4;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.count {
+    color: #ea7bb4;
+    width: 25%;
+    background-color: white;
+    vertical-align: top;
+    font-size: medium;
+    font-weight: bold;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 2px;
+    text-align: center;
+    border-color: black;
+    margin: 1px;
+}
+
+.button-rounded {
+    color: white;
+    background-color: #ea7bb4;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.column_display {
+    width: 15%;
+}
+
+.row {
+    display: inline-block !important;
+}
